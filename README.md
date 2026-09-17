@@ -1,6 +1,6 @@
 # Taskly
 
-Taskly is a simple Flutter app for managing daily tasks and keeping your day organized.
+Taskly is a simple React Native app for managing daily tasks and keeping your day organized.
 
 ## Installation
 
@@ -9,15 +9,19 @@ Clone the repository and install the required dependencies.
 ```bash
 git clone https://github.com/example/taskly.git
 cd taskly
-flutter pub get
+npm install
+# oppure: yarn install
+# prerequisiti: Node LTS, Watchman (macOS), Android Studio / Xcode
 ```
 
 ## Usage
 
-Run the application with Flutter:
+Run the application with React Native CLI:
 
 ```bash
-flutter run
+npx react-native start
+npx react-native run-android
+npx react-native run-ios
 ```
 
 You can create, complete, edit, and delete your daily tasks directly from the app.
